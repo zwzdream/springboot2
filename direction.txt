@@ -1,0 +1,8 @@
+JAR
+学习Spring-boot，使用jsp作为页面（jar）
+注意：jsp页面只能放在src/main包下的webapp下面，不能放在src/test下
+
+WAR
+打包时，将一些依赖<scope>provided</scope> ，
+需要在tomcat 8以上运行，才可以，不然会出现版本冲突（具体不清楚）
+
